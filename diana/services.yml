@@ -1,0 +1,14 @@
+---
+mock:
+
+  host: 172.17.0.1
+  port: 2408
+  user: mock
+  password: m(0)cK
+
+  config_fp: /resources/orthanc/orthanc.json
+  extra_modalities:
+    - name: diana
+    - aet:  DIANA
+    - host: 172.17.0.1
+    - port: 8999
