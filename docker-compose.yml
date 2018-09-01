@@ -14,7 +14,7 @@ services:
       - "2408:8042"
     privileged: true
     environment:
-      # Don't use Resin's init system on a non-Resin base
+      # Don not use Resin's init system on a non-Resin base
       INITSYSTEM: "on"
 
   diana:
