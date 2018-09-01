@@ -20,7 +20,7 @@ services:
       # Don not use Resin's init system on a non-Resin base
       INITSYSTEM: "on"
     volumes:
-      - data:/etc/orthanc:/etc/orthanc
+      - data:/etc/orthanc
 
   diana:
     build: diana
@@ -28,4 +28,4 @@ services:
     environment:
       INITSYSTEM: "on"
     volumes_from:
-      - dicom
+      - data:/etc/orthanc
