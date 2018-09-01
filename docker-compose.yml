@@ -27,5 +27,5 @@ services:
     privileged: true
     environment:
       INITSYSTEM: "on"
-    volumes_from:
+    volumes:
       - data:/etc/orthanc
