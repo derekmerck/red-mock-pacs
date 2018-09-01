@@ -2,6 +2,8 @@
 # For use w Resin.io
 # Merck, Summer 2018
 
+# Service config with watcher addr must be passed into diana-mock as environment variable
+
 # resin docker-compose is 2.1 max
 version: '2.1'
 
@@ -11,6 +13,7 @@ volumes:
 services:
 
   dicom:
+    container_name: dicom
     build: orthanc
     ports:
       - "2424:4242"
@@ -23,6 +26,7 @@ services:
       - data:/etc/orthanc
 
   diana:
+    container_name: diana
     build: diana
     privileged: true
     environment:
