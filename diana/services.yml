@@ -9,6 +9,6 @@ mock:
   config_fp: /etc/orthanc/orthanc.json
   extra_modalities:
     - name: diana
-    - aet:  DIANA
-    - host: 172.17.0.2
-    - port: 8999
+      aet:  DIANA
+      host: 172.17.0.2
+      port: 8999
