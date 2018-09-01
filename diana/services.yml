@@ -10,5 +10,5 @@ mock:
   extra_modalities:
     - name: diana
       aet:  DIANA
-      host: 172.21.0.1
+      host: 192.168.1.126
       port: 8999
