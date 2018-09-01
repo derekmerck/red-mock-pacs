@@ -27,5 +27,7 @@ services:
     privileged: true
     environment:
       INITSYSTEM: "on"
+    links:
+      - dicom:dicom
     volumes:
       - data:/etc/orthanc

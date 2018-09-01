@@ -1,7 +1,7 @@
 ---
 mock:
 
-  host: 172.17.0.2
+  host: dicom
   port: 2408
   user: mock
   password: m(0)cK
