@@ -6,7 +6,7 @@ mock:
   user: mock
   password: m(0)cK
 
-  config_fp: /resources/orthanc/orthanc.json
+  config_fp: /etc/orthanc/orthanc.json
   extra_modalities:
     - name: diana
     - aet:  DIANA
