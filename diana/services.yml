@@ -1,14 +1,6 @@
 ---
 mock:
-
   host: dicom
   port: 8042
   user: mock
   password: m(0)cK
-
-  config_fp: /etc/orthanc/orthanc.json
-  extra_modalities:
-    - name: diana
-      aet:  DIANA
-      host: 192.168.1.126
-      port: 8999

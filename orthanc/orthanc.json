@@ -151,9 +151,7 @@
    **/
 
   // The list of the known DICOM modalities
-  "DicomModalities" : {
-    "diana": ["DIANA", "172.17.0.1", 8998]
-  },
+  "DicomModalities" : {},
 
   // Whether the Orthanc SCP allows incoming C-Echo requests, even
   // from SCU modalities it does not know about (i.e. that are not
